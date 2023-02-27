@@ -8,7 +8,7 @@ provider "aws" {
 
 //creating bucket with an random name
 resource "aws_s3_bucket" "bucket" {
-  bucket = "PRASADBUCKET"
+  bucket = "pipodbucket12"
   acl = "public-read"
   versioning {
     enabled = false
