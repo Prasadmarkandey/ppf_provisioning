@@ -13,10 +13,7 @@ resource "aws_s3_bucket" "bucket" {
   versioning {
     enabled = false
   }
-  tags = merge (var.tags, {
-    Name        = "My Bucket"
-    Environment = "Dev"
-  })
+  
 
 }
 
